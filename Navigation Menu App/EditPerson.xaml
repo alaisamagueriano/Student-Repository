@@ -1,0 +1,30 @@
+﻿<Window x:Class="Navigation_Menu_App.EditPerson"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navigation_Menu_App"
+        mc:Ignorable="d"
+        Title="EditPerson" Height="450" Width="400">
+    <Window.Background>
+        <ImageBrush ImageSource="/9_MapuaBG.png"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Mapua Student Maintenance" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="15"/>
+        <Label Content="EDIT  PERSON" HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Times New Roman" Foreground="#FFF9FC00" Background="Maroon"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Margin="89,217,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="Given Name:" HorizontalAlignment="Left" Margin="78,244,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="Middle Name:" HorizontalAlignment="Left" Margin="72,271,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="Person ID:" HorizontalAlignment="Left" Margin="95,144,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="185,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="" HorizontalAlignment="Center" Margin="0,336,0,0" VerticalAlignment="Top" Width="54" Height="56">
+            <Button.Background>
+                <ImageBrush ImageSource="/img_edit.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Margin="185,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="185,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="185,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
